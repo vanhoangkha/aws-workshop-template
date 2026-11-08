@@ -2,14 +2,14 @@
 
 A comprehensive AWS workshop demonstrating how to securely access Amazon S3 from both cloud and on-premises environments using VPC endpoints and AWS PrivateLink.
 
-## 🎯 Workshop Overview
+## Workshop Overview
 
 This hands-on workshop teaches you how to implement secure, private connectivity to Amazon S3 without exposing traffic to the public internet. You'll learn to configure and test two types of VPC endpoints:
 
 - **Gateway VPC Endpoint** - For accessing S3 from cloud resources using private IP addresses
 - **Interface VPC Endpoint** - For accessing S3 from on-premises locations via AWS PrivateLink
 
-## 🏗️ Architecture
+## Architecture
 
 The workshop uses a dual-VPC architecture:
 
@@ -18,7 +18,7 @@ The workshop uses a dual-VPC architecture:
 
 ![Workshop Architecture](static/images/2.workshop-overview/diagram1.png)
 
-## 📚 Learning Objectives
+## Learning Objectives
 
 By completing this workshop, you will:
 
@@ -29,14 +29,14 @@ By completing this workshop, you will:
 - Test connectivity from both cloud and simulated on-premises environments
 - Apply networking best practices for secure AWS service access
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - AWS Account with appropriate permissions
 - Basic understanding of AWS VPC, EC2, and S3 services
 - Familiarity with networking concepts (routing, DNS, VPN)
 - AWS CLI configured (optional but recommended)
 
-## 📖 Workshop Modules
+## Workshop Modules
 
 ### 1. [Workshop Overview](content/1-workshop-overview/)
 Introduction to VPC endpoints, AWS PrivateLink, and workshop architecture
@@ -56,7 +56,7 @@ Advanced security configurations using endpoint policies
 ### 6. [Clean Up](content/6-cleanup/)
 Resource cleanup and cost optimization
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Option 1: View Online Workshop
 The workshop is built using Hugo and can be viewed as a static website:
@@ -89,20 +89,20 @@ The workshop is built using Hugo and can be viewed as a static website:
 ### Option 2: Follow Markdown Content
 Navigate through the workshop modules in the `content/` directory, starting with the overview.
 
-## 🌐 Multi-language Support
+## Multi-language Support
 
 This workshop is available in:
 - **English** - Primary language
 - **Vietnamese (Tiếng Việt)** - Complete translation available
 
-## 🔧 Technical Details
+## Technical Details
 
 - **Framework**: Hugo static site generator
 - **Theme**: Hugo Learn Theme (workshop variant)
 - **Languages**: English, Vietnamese
 - **Build Tool**: Hugo v0.128.0+
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── content/                 # Workshop content (markdown files)
@@ -119,7 +119,7 @@ This workshop is available in:
 └── public/                # Generated static site (after hugo build)
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to:
 - Report issues or bugs
@@ -127,24 +127,24 @@ Contributions are welcome! Please feel free to:
 - Submit pull requests
 - Translate content to additional languages
 
-## 📞 Support
+## Support
 
 For questions or support:
 - **AWS Study Group Blog**: [AWS Blogs](https://aws.amazon.com/blogs)
 - **Facebook Community**: [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj)
 - **Email**: journeyoftheaverageguy@gmail.com
 
-## ⚠️ Important Notes
+## Important Notes
 
 - This workshop creates AWS resources that may incur costs
 - Always follow the cleanup instructions to avoid unexpected charges
 - The simulated on-premises environment uses a single VPN instance for cost optimization
 - For production workloads, implement multiple VPN devices for high availability
 
-## 📄 License
+## License
 
 This workshop is provided for educational purposes. Please refer to AWS documentation for the most up-to-date service information and best practices.
 
 ---
 
-**Built with ❤️ for the AWS community**
+**Built with for the AWS community**
